@@ -1,0 +1,32 @@
+body{
+  text-align:center;
+  background-color: DeepSkyBlue;
+  padding-right:33px;
+  padding-left: 33px;
+ 
+}
+ 
+
+/*Phone*/
+@media all and (max-width: 480px){
+  
+  body{
+    background-color: red;
+  }
+}
+
+/*TABLET*/
+@media all and (max-width: 768px){
+  body{
+    background-color: red;
+  }
+  
+}
+
+/*DESKTOP*/
+@media all and (min-width: 960px){
+  body{
+    background-color: burlywood;
+  }
+  
+}
